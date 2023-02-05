@@ -1,5 +1,5 @@
 {% set name = "realtime" %}
-{% set version = "0.0.5" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4f4c940578f1638b777e4e30bc96295f155d3ff77ea328187b5347b35a96ad20
+  sha256: 14e540c4a0cc2736ae83e0cbd7efbbfb8b736df1681df2b9141556cb4848502d
 
 build:
   number: 0
@@ -16,12 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
     - poetry
   run:
-    - python >=3.7
-    - dataclasses >=0.6,<0.7
+    - python >=3.8
     - python-dateutil >=2.8.1
     - typing-extensions >=4.2.0
     - websockets >=10.3
