@@ -1,5 +1,5 @@
 {% set name = "realtime" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 14e540c4a0cc2736ae83e0cbd7efbbfb8b736df1681df2b9141556cb4848502d
+  sha256: 776170a4329edc869b91e104c554cda02c8bf8e052cbb93c377e22482870959c
 
 build:
   number: 0
@@ -23,7 +23,7 @@ requirements:
     - python >=3.8
     - python-dateutil >=2.8.1
     - typing-extensions >=4.2.0
-    - websockets >=10.3
+    - websockets >=11
 
 test:
   imports:
