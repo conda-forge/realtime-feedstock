@@ -1,5 +1,5 @@
 {% set name = "realtime" %}
-{% set version = "1.0.6" %}
+{% set version = "2.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2be0d8a6305513d423604ee319216108fc20105cb7438922d5c8958c48f40a47
+  sha256: 519da9325b3b8102139d51785013d592f6b2403d81fa21d838a0b0234723ed7d
 
 build:
   number: 0
@@ -21,9 +21,10 @@ requirements:
     - poetry
   run:
     - python >=3.8
+    - aiohttp >=3.10.2
     - python-dateutil >=2.8.1
-    - typing-extensions >=4.2.0
-    - websockets >=11
+    - typing-extensions >=4.12.2
+    - websockets >=11,<13
 
 test:
   requires:
