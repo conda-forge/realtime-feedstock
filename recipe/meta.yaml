@@ -1,5 +1,5 @@
 {% set name = "realtime" %}
-{% set version = "2.7.0" %}
+{% set version = "2.19.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6b9434eeba8d756c8faf94fc0a32081d09f250d14d82b90341170602adbb019f
+  sha256: 8ad37c097ace327b5f07ae5bbe27fd0bb228626fbdef59254b940daf1b2a690f
 
 build:
   number: 0
@@ -37,13 +37,12 @@ test:
     - realtime
 
 about:
-  home: https://github.com/supabase-community/realtime-py
+  home: https://github.com/supabase/supabase-py/tree/main/src/realtime
   license: MIT
   license_family: MIT
   license_file: LICENSE
   summary: A Python Client for Phoenix Channels
-  description: |
-    A Python Client for Phoenix Channels
+  description: A Python Client for Phoenix Channels
 
 extra:
   recipe-maintainers:
