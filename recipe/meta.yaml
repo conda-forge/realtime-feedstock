@@ -37,13 +37,12 @@ test:
     - realtime
 
 about:
-  home: https://github.com/supabase-community/realtime-py
+  home: https://github.com/supabase/supabase-py/tree/main/src/realtime
   license: MIT
   license_family: MIT
   license_file: LICENSE
   summary: A Python Client for Phoenix Channels
-  description: |
-    A Python Client for Phoenix Channels
+  description: A Python Client for Phoenix Channels
 
 extra:
   recipe-maintainers:
