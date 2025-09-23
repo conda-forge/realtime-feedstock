@@ -3,14 +3,13 @@ About realtime-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/realtime-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/supabase-community/realtime-py
+Home: https://github.com/supabase/supabase-py/tree/main/src/realtime
 
 Package license: MIT
 
 Summary: A Python Client for Phoenix Channels
 
 A Python Client for Phoenix Channels
-
 
 Current build status
 ====================
