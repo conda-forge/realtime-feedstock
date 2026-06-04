@@ -1,5 +1,5 @@
 {% set name = "realtime" %}
-{% set version = "2.30.1" %}
+{% set version = "2.31.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c7edd03b34fdc5a57ef5035460000c405d37498aaa687685b998ba55d13f8a9f
+  sha256: 9e641cb4d77ca0fe768515f8cf9f83550c79f49ce1550a95afc2dc0e252be8c9
 
 build:
   number: 0
