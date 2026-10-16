@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: realtime
-  version: "2.32.0"
+  version: "2.33.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 42fb260cd39c287497a1c3e9e51733cfbb8ead4259fc2a43106fb83dc5cb04f7
+  sha256: e4b10077d59876a75070b7e72074945ea78b4a99369771f8b968f4092847c65d
 
 build:
   number: 0
